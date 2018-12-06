@@ -137,8 +137,3 @@ function newcancel() {
     document.getElementById('Output').innerHTML = 'Today, we are cancelling ' + celeb[randomNumber] + ' for ' + verb[randomNumber2] + ' ' + noun[randomNumber3] + '.';
     
 }
-
-
-function tweeter() { 
-
-        window.location=`https://twitter.com/share?text='${celeb[randomNumber]};}
