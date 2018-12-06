@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CANCELLED</title>
+</head>
+<body>
+    <h1>Who's cancelled today?</h1>
+    
+    <!-- This is where the string will come up -->
+    <div id="Output">
+
+    </div>
+    <!-- Button to call function -->
+    <button class="String Generator" onclick="newquote()">Who else?</button>
+    f
+
+
+
+</body>
+</html>
