@@ -135,5 +135,10 @@ function newcancel() {
     var randomNumber2 = Math.floor(Math.random() * (verb.length));
     var randomNumber3 = Math.floor(Math.random() * (noun.length));
     document.getElementById('Output').innerHTML = 'Today, we are cancelling ' + celeb[randomNumber] + ' for ' + verb[randomNumber2] + ' ' + noun[randomNumber3] + '.';
+
     
 }
+
+function tweetit() {
+    window.open('https://twitter.com/intent/tweet?hashtags= Cancelled&text=' + document.getElementById('Output').innerHTML + ' https://bit.ly/2QBMs02');
+  }
