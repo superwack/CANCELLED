@@ -13,7 +13,7 @@ h1 {
     left: 0;
     bottom: 0;
     width: 100%;
-    color: white;
+    color: #007872;
     text-align: center;
 }
 body {
@@ -27,7 +27,7 @@ body {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    background-color: #dcd0ff;
+    background-color: #007872;
     
 
     -webkit-transition: opacity 2s ease-in;
